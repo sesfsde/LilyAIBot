@@ -6,7 +6,7 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, WebAppInfo
 BOT_TOKEN = "8622623905:AAHkFpFQqVMoQsq-jdKtcXSgjpojpDDjiik"
 
 MINI_APP_URL = "https://lilian-ai-app.sesfsde.workers.dev"
-DOWNLOAD_URL = "DOWNLOAD_URL = "https://drive.google.com/drive/folders/1SWarkj4q4mf-2uIHum__FcVE8B2HYZnN""
+DOWNLOAD_URL = "https://drive.google.com/drive/folders/1SWarkj4q4mf-2uIHum__FcVE8B2HYZnN"
 NEWS_CHANNEL_URL = "https://t.me/LilyAI_News"
 
 bot = Bot(token=BOT_TOKEN)
