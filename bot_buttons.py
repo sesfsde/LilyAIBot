@@ -73,7 +73,7 @@ async def handle_callback(callback: types.CallbackQuery):
             "6. Почему долгий ответ?\n"
             "→ ИИ генерирует ответы 3-7 секунд. Если дольше — проверь интернет.\n\n"
             "7. Есть ли пробный период?\n"
-            "→ Да, тариф START — 30 ген/день, 7 дней за $16.\n\n"
+            "→ Да, тариф START — 30 ген/день, 7 дней за $27.\n\n"
             
         )
         await callback.message.edit_text(text, reply_markup=main_menu())
