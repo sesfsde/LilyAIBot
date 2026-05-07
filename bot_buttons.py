@@ -74,7 +74,7 @@ async def handle_callback(callback: types.CallbackQuery):
             "→ ИИ генерирует ответы 3-7 секунд. Если дольше — проверь интернет.\n\n"
             "7. Есть ли пробный период?\n"
             "→ Да, тариф START — 30 ген/день, 7 дней за $16.\n\n"
-            "💡 После оплаты тариф не активировался? Сразу напиши в поддержку @Lily_AI_support"
+            
         )
         await callback.message.edit_text(text, reply_markup=main_menu())
     elif callback.data == "support":
