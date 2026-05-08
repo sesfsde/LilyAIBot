@@ -55,7 +55,7 @@ async def handle_callback(callback: types.CallbackQuery):
             "3. Открой Chrome и перейди на страницу <code>chrome://extensions/</code>\n\n"
             "4. Включи «Режим разработчика».\n\n"
             "5. Нажми «Загрузить распакованное расширение» и выбери папку с распакованным архивом.\n\n"
-            "6. После установки нажми на иконку расширения и выполни вход.\n\n"
+            "6. После установки зайди на сайт Stripchat/Chaturbate (ВАЖНО: работает только на английской версси Chaturbate),  выполни вход с никнеймом, который ты указала в Telegram.\n\n"
             "7. Открой приватный чат и пользуйся!"
         )
         await callback.message.edit_text(text, reply_markup=main_menu(), parse_mode="HTML")
